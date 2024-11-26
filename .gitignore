@@ -1,0 +1,70 @@
+# Compilación
+bin/
+obj/
+
+# Archivos de usuario de Visual Studio
+*.user
+*.userosscache
+*.sln.docstates
+
+# Configuración de Visual Studio
+.vs/
+
+# Configuración de Rider/JetBrains
+.idea/
+
+# Archivos generados por el SDK
+Generated_Code/
+
+# Archivos de paquetes NuGet
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# Archivos de configuración temporales
+*.tmp
+*.log
+*.tlog
+*.cache
+
+# Archivos de resultados de pruebas
+TestResult*/
+*.trx
+*.coverage
+
+# Archivos de configuración del sistema operativo
+Thumbs.db
+ehthumbs.db
+*.DS_Store
+*.Spotlight-V100
+.Trashes
+
+# Configuración de contenedores/Docker
+docker-compose.override.yml
+
+# Archivos de claves y secretos
+*.key
+*.crt
+*.pfx
+*.pem
+
+# Configuración de herramientas y editores
+.vscode/
+*.editorconfig
+
+# Archivos relacionados con Git
+!.gitignore
+!.gitattributes
+
+# Archivos de depuración
+*.pdb
+*.ipdb
+*.iobj
+*.ilk
+*.pgd
+
+# Archivos del sistema de paquetes
+*.lock
+project.assets.json
